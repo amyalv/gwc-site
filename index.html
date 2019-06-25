@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Amy's Bio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+}
+
+/* Style the header */
+.header {
+  background-color: #FFC0CB;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #FFC0CB;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<button onclick = "myFunction()"> Alert</button>
+
+<script>
+
+  alert("Life.exe has stopped working");
+
+</script>
+
+<body>
+
+<h2>Introduction</h2>
+<p>My name is Amy Alvarado, a female, and I'm a rising Junior at Mcnair High School. I'm the type of person you would call an “introvert”. I live with My parents (mom and dad) and my brother, along with my dogs - Sally and Minnie, and my cat - Kookie. I am a first generation Mexican American.</p>
+
+<div class="header"  style="background-color: #FFC0CB;box-shadow: inset 0px -2px black;">
+
+  <h2>A Few Facts</h2>
+  
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:#FFC0CB;box-shadow: inset -2px -1px black;"><b>Likes:</b> 
+  <p> I like to stay indoors by myself or with the company of my pets. As much as I like staying in, I also like going out with my parents and friends, I like shopping and checking out new products that come out. I've recently started coding when I joined the Girls Who Code summer immersion program, which I enjoy doing. I'm also a huge bookworm, even though I typically read comics on my phone, it still counts as reading. I love food, who doesn't. </p> </div>
+  <div class="column" style="background-color:#FFC0CB;box-shadow: inset -2px -1px black;"><b>Dislikes:</b>
+  <p>I dont like python, i lost so many braincells. I dislike ATTITUDE, and people who get lazy when working with others. I'm also picky with my food, i dont like tomatoes, most vegetables, papaya, pineapple, and a few other things.</p> </div>
+  <div class="column" style="background-color:#FFC0CB;box-shadow: inset -2px -1px black;"><b>Interests:</b>
+  <p> I love music, its a part of who I am, I like to listen to music in different languages, in English, Spanish, Korean, and French. The genres I typically listen to are POP, RnB, Lofi, Indie, Soft and Alternative Rock, Classical, Orchestral, Bachata, Salsa, Merengue, etc. My favorite artists are: K-POP group, BTS (since 2016), Billie Eillish, Conan Gray, Romeo Santos, and Stromae. </p> </div>
+</div>
+
+<div class="footer">
+  <p>That is all!</p>
+</div>
+
+</body>
+</html>
